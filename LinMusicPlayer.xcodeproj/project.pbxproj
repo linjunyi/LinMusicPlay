@@ -15,6 +15,8 @@
 		3EED90B91B5E9E7E00056CBF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EED90B81B5E9E7E00056CBF /* Images.xcassets */; };
 		3EED90BC1B5E9E7E00056CBF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EED90BA1B5E9E7E00056CBF /* LaunchScreen.xib */; };
 		3EED90C81B5E9E7E00056CBF /* LinMusicPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EED90C71B5E9E7E00056CBF /* LinMusicPlayerTests.m */; };
+		3EED90D21B5EA07F00056CBF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EED90D11B5EA07F00056CBF /* AVFoundation.framework */; };
+		3EED90D41B5EA15400056CBF /* Call your name.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3EED90D31B5EA15400056CBF /* Call your name.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		3EED90C11B5E9E7E00056CBF /* LinMusicPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinMusicPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EED90C61B5E9E7E00056CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EED90C71B5E9E7E00056CBF /* LinMusicPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinMusicPlayerTests.m; sourceTree = "<group>"; };
+		3EED90D11B5EA07F00056CBF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3EED90D31B5EA15400056CBF /* Call your name.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Call your name.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EED90D21B5EA07F00056CBF /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +96,8 @@
 				3EED90B81B5E9E7E00056CBF /* Images.xcassets */,
 				3EED90BA1B5E9E7E00056CBF /* LaunchScreen.xib */,
 				3EED90AF1B5E9E7E00056CBF /* LinMusicPlayer.xcdatamodeld */,
+				3EED90D31B5EA15400056CBF /* Call your name.mp3 */,
+				3EED90D11B5EA07F00056CBF /* AVFoundation.framework */,
 				3EED90A81B5E9E7D00056CBF /* Supporting Files */,
 			);
 			path = LinMusicPlayer;
@@ -202,6 +209,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EED90D41B5EA15400056CBF /* Call your name.mp3 in Resources */,
 				3EED90B71B5E9E7E00056CBF /* Main.storyboard in Resources */,
 				3EED90BC1B5E9E7E00056CBF /* LaunchScreen.xib in Resources */,
 				3EED90B91B5E9E7E00056CBF /* Images.xcassets in Resources */,
