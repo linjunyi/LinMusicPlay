@@ -96,8 +96,9 @@
 				3EED90B81B5E9E7E00056CBF /* Images.xcassets */,
 				3EED90BA1B5E9E7E00056CBF /* LaunchScreen.xib */,
 				3EED90AF1B5E9E7E00056CBF /* LinMusicPlayer.xcdatamodeld */,
-				3EED90D31B5EA15400056CBF /* Call your name.mp3 */,
-				3EED90D11B5EA07F00056CBF /* AVFoundation.framework */,
+				3EF14FCF1B5FC1CE00B697CB /* Music */,
+				3EF14FD11B5FC1E300B697CB /* Images */,
+				3EF14FD01B5FC1D800B697CB /* FrameWorks */,
 				3EED90A81B5E9E7D00056CBF /* Supporting Files */,
 			);
 			path = LinMusicPlayer;
@@ -127,6 +128,29 @@
 				3EED90C61B5E9E7E00056CBF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3EF14FCF1B5FC1CE00B697CB /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				3EED90D31B5EA15400056CBF /* Call your name.mp3 */,
+			);
+			name = Music;
+			sourceTree = "<group>";
+		};
+		3EF14FD01B5FC1D800B697CB /* FrameWorks */ = {
+			isa = PBXGroup;
+			children = (
+				3EED90D11B5EA07F00056CBF /* AVFoundation.framework */,
+			);
+			name = FrameWorks;
+			sourceTree = "<group>";
+		};
+		3EF14FD11B5FC1E300B697CB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -428,6 +452,7 @@
 				3EED90CD1B5E9E7E00056CBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3EED90CE1B5E9E7E00056CBF /* Build configuration list for PBXNativeTarget "LinMusicPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +461,7 @@
 				3EED90D01B5E9E7E00056CBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
